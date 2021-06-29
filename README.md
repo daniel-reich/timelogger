@@ -14,6 +14,9 @@ Push time tracked with [Klokki Slim](https://apps.apple.com/us/app/klokki-slim-t
 - `./logtime.sh [yyyy-mm-dd]`
 - If no date is passed in, it will default to today
 - Posting to jira is idempotent, you can run this script multiple times without re-posting time.
+- A summary of work logged in Klokki and whether it was posted to Jira will be printed to the terminal
+![image](https://user-images.githubusercontent.com/23177232/123829368-a3006f80-d8bf-11eb-98cc-8f2eff63d882.png)
+
 
 
 This script was set up for klokki but could be modified to include other time tracking apps. A dev docker container is also included here for running/developing locally without worrying about python environment setup.
